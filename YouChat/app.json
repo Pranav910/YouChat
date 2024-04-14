@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "YouChat",
+    "slug": "YouChat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/whatsapp.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/whatsapp.png",
+      "resizeMode": "contain",
+      "backgroundColor": "black"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.pranav910.YouChat"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9e317c5c-df59-4d44-af49-880d7f90a131"
+      }
+    }
+  }
+}
